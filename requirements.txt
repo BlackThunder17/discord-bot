@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import os 
 
-TOKEN = "MTQ3OTQ1NDIzMTIyNzUzMTM0NQ.G1n4p1.N9pU1kZAQKRaE7EiNbuBH-q5spWn3cIgzxIIds" 
+TOKEN = os.getenv("DISCORD_TOKEN") 
 
 VERIFIED_ROLE_NAME = "Member"
 
