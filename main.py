@@ -52,6 +52,7 @@ async def rules(ctx):
         title=f"Welcome to {ctx.guild.name}!",
         description=f"""
 Hey, welcome to **{ctx.guild.name}**!
+
 We’re a friendly, active, and fun-loving community focused on positivity, enjoying the game, and supporting each other in a vibrant, chill environment!
 
 **Be Civil**
@@ -75,7 +76,6 @@ Violating these rules could result in a ban.
 **Match Your Discord Name with Your In-Game Name**
 Make sure your Discord name matches your in-game name. If we can't identify you, you may be removed.
 
-*Change your name on the server to your name in the game.*
 
 *Let’s create a fun and friendly environment for everyone!*
 """,
